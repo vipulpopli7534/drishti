@@ -7,8 +7,9 @@ A menu-bar traffic light for [Claude Code](https://code.claude.com) sessions. Na
 from far away and relay it to a king who couldn't see it himself. That's the product: work is
 happening in a terminal you're not looking at, and Drishti gives you sight of it.
 
-<!-- 📸 Screenshot goes here — drop an image of the tray dropdown / menu bar icon in place of this comment. -->
-<!-- ![Drishti tray dropdown](docs/screenshot.png) -->
+![Drishti menu bar icon in action](docs/tray-demo.gif)
+
+![Drishti dropdown](docs/dropdown-screenshot.png)
 
 ## The problem
 
