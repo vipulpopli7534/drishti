@@ -1,0 +1,40 @@
+{
+  "BLOCKED": [
+    "stuck, send help",
+    "your move, chief",
+    "bestie needs u rn 🚦",
+    "waiting on you, no cap",
+    "it's giving pending"
+  ],
+  "RUNNING": [
+    "cooking…",
+    "vibing, don't interrupt",
+    "yapping at the tool calls",
+    "locked in"
+  ],
+  "IDLE": [
+    "delivered ✅",
+    "go touch grass",
+    "sent. bet.",
+    "all yours, boss"
+  ],
+  "aggregateHeader": {
+    "BLOCKED": [
+      "something needs you rn",
+      "red alert, chief",
+      "don't leave em on read"
+    ],
+    "RUNNING": [
+      "all cooking, chill",
+      "everything's locked in"
+    ],
+    "IDLE": [
+      "all clear, nothing to see",
+      "all delivered ✅"
+    ],
+    "NONE": [
+      "no sessions… kinda boring",
+      "quiet in here"
+    ]
+  }
+}

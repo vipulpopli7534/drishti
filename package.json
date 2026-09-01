@@ -1,0 +1,32 @@
+{
+  "name": "drishti",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A traffic light for Claude Code sessions",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && electron .",
+    "test": "npm run build && node --test $(find dist/main -name '*.test.js')",
+    "package:mac": "npm run build && electron-builder --mac --dir"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "electron": "^33.2.1",
+    "electron-builder": "^26.15.3",
+    "typescript": "^5.7.2"
+  },
+  "build": {
+    "appId": "com.vipul.drishti",
+    "productName": "Drishti",
+    "files": ["dist/**/*", "assets/**/*", "package.json"],
+    "directories": {
+      "output": "release"
+    },
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "target": "dir",
+      "icon": "assets/Drishti.icns"
+    }
+  }
+}
