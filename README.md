@@ -64,7 +64,7 @@ npm run build
 npm start
 ```
 
-**Or build a real double-clickable app:**
+**Or build a real double-clickable app (preferable):**
 
 ```bash
 npm run package:mac
