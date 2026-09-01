@@ -124,9 +124,6 @@ npm run build     # type-check and compile
   identically whether a turn ended because the task is done or because Claude just asked a
   clarifying question. Drishti currently maps `Stop` → green; there's no hook-level signal to
   tell the two apart.
-- **The dropdown can't animate while open.** Electron's native menu items are a static
-  snapshot once shown — the tray icon itself still blinks red the whole time you're not looking,
-  which is the part that actually matters.
 - **macOS only, for now.** The state machine and daemon are platform-agnostic; the hook shim and
   packaging are macOS-specific. A Windows port needs a `.ps1` shim and a Windows
   `electron-builder` target.
